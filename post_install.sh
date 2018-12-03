@@ -8,4 +8,4 @@ pkg install gitea
 
 
 # Start the service
-service gitea start
+service gitea onestart
