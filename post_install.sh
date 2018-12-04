@@ -1,10 +1,10 @@
 #!/bin/sh
 #testing
+
 # Create user 'gitea'
 pw add user -n gitea -c Gitea -s /bin/csh -m
 
-
-#Grab port? 
+#install port
 pkg install gitea
 
 #Enable Service
